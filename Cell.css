@@ -1,0 +1,14 @@
+.Cell {
+  height: 50px; /* Adjust for a more compact look */
+  width: 50px; /* Adjust for a more compact look */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #555; /* A darker shade for the off state */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for color change */
+  margin: 2px; /* Add a bit of space between cells */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+}
+
+.Cell-lit {
+  background-color: #ffeb3b; /* A bright color for the lit state */
+}

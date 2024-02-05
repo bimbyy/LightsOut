@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif; 
+}
+
+.winner {
+  font-size: 24px; /* Larger text for visibility */
+  color: #4CAF50; /* A success color */
+  padding: 20px; /* Some padding around the text */
+  border-radius: 5px; /* Rounded corners for the message box */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Shadow for depth */
+  display: inline-block; /* Adjust based on layout */
+  margin: 20px; /* Space from the board or other elements */
+}
